@@ -1,0 +1,11 @@
+[versions]
+kgp = "2.3.0"
+
+[libraries]
+kgp = { module = "org.jetbrains.kotlin.jvm:org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "kgp" }
+gradle-api = "dev.gradleplugins:gradle-api:8.11.1"
+kotlin-compiler = { module = "org.jetbrains.kotlin:kotlin-compiler-embeddable", version.ref = "kgp" }
+
+[plugins]
+kgp = { id = "org.jetbrains.kotlin.jvm", version.ref = "kgp" }
+buildconfig = { id = "com.github.gmazzo.buildconfig", version = "6.0.7"}

@@ -1,5 +1,6 @@
 .fleet
 .gradle
+.kotlin
 
 # Idea
 **/.idea/*

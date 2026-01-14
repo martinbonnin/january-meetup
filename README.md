@@ -34,7 +34,7 @@ See full usage in [main.kt](https://github.com/martinbonnin/january-meetup/blob/
 This repo serves no practical purpose besides education and showing the main parts of building and developing a plugin:
 
 * [Companion Gradle plugin](https://github.com/martinbonnin/january-meetup/blob/final/gradle-plugin/src/main/kotlin/paug/january/gradle/PaugGradlePlugin.kt)
-* [Plugin registrar](https://github.com/martinbonnin/january-meetup/blob/final/compiler-plugin/src/main/kotlin/paug/january/compiler/PaugCompilerPluginRegistrar.kt).
+* [Plugin registrar](https://github.com/martinbonnin/january-meetup/blob/final/compiler-plugin/src/main/kotlin/paug/january/compiler/PaugCompilerPluginRegistrar.kt)
 * [FIR extensions](https://github.com/martinbonnin/january-meetup/blob/final/compiler-plugin/src/main/kotlin/paug/january/compiler/fir/PaugFirExtensionRegistrar.kt)
 * [IR extensions](https://github.com/martinbonnin/january-meetup/blob/final/compiler-plugin/src/main/kotlin/paug/january/compiler/ir/PaugIrGenerationExtension.kt)
 
